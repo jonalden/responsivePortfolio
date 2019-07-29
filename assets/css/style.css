@@ -267,9 +267,10 @@ input[type=submit] {
     margin-right: 20px;
     margin-bottom: 100px;
     width: unset;
+  }
+  .main-section #contact-form {
     float: none;
   }
-  
 }
 
 @media only screen and (max-width: 980px) {
@@ -285,6 +286,16 @@ input[type=submit] {
     margin-bottom: 100px;
     width: unset;
   }
+  .main-section-contact {
+    width: unset;
+    max-width: 960px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
 }
 
 @media only screen and (min-width: 981px) {
@@ -293,5 +304,14 @@ input[type=submit] {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+  }
+  .main-section-contact {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
   }
 }
