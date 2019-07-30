@@ -110,6 +110,9 @@ h3, h2 {
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
 }
+ul {
+  list-style: none;
+}
 
 /* main */
 
@@ -171,6 +174,18 @@ h3, h2 {
 }
 
 /* contact page */
+.main-section-contact {
+  width: unset;
+  max-width: 960px;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+
+}
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -193,7 +208,7 @@ input[type=text], input[type=email], textarea {
 }
 
 textarea {
-  height: 100px;
+  height: 200px;
 }
 
 input[type=submit] {
@@ -205,21 +220,84 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 1500px) {
   body {
-    font-size: 14px;
-    margin-left: 0px;
-    margin-right: 0px;
     margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
-  #logo {
-    font-size: 24px;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
-  .work {
-    width: 100%;
+  .main-section-contact {
+    width: unset;
+    max-width: 960px;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+.main-section {
+  width: unset;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+nav {
+  margin-right: 10%;
+}
+#logo {
+  margin-left: 10%;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
-  h1 {
-    font-size: 24px;
+  .main-section {
+    width: unset;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .main-section-contact {
+    width: unset;
+    max-width: 960px;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+nav {
+  margin-right: 10%;
+}
+#logo {
+  margin-left: 10%;
+}
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
   #masthead #logo {
     width: 100%;
@@ -230,88 +308,16 @@ input[type=submit] {
     text-align: center;
     margin-top: 0px;
   }
-  #main-container img {
-    width: 100%;
-  }
   .main-section {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 100px;
-    width: unset;
-    float: none;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
   }
-  .container .work {
-    float: none;
-  }
-  ul {
-    padding-inline-start: 0px;
-  }
-  footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    margin-top: 0px;
+  nav {
     margin-right: 0px;
-    margin-bottom: 0px;
+  }
+  #logo {
     margin-left: 0px;
-  }
-  .main-section {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 100px;
-    width: unset;
-  }
-  .main-section #contact-form {
-    float: none;
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-  .main-section {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 100px;
-    width: unset;
-  }
-  .main-section-contact {
-    width: unset;
-    max-width: 960px;
-    padding: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-  }
-}
-
-@media only screen and (min-width: 981px) {
-  body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-  .main-section-contact {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
   }
 }
